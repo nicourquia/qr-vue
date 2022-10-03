@@ -1,0 +1,30 @@
+- Beeper
+- Agregar mas caracteristicas de productos (tipo, calorías, etc.)
+- Achievements
+- Mas fotos por producto
+- Propinas cajero
+- Al tocar pagado, medio de pago
+- Llevar control de gastos / caja
+- Checkboxes para armar tienda
+- unsubscribe
+- What if enter real time before websocket connected?
+- Add print buttons in order modal
+- Hide orders
+- Facebook pixel
+- Translate VerifyEmail y nuevos dialogos
+- Añadir opción de recibir pedidos fuera de hora
+- Notificaciones
+- Repartidores
+- Mostrar opciones bien en Resumen mesa
+- Item no comprable (salsas)
+- Botón cambiar sucursal
+
+  COSAS SIMPLES A AGREGAR:
+  - Campo descripción de la tienda [Componente RestaurantSettings.vue] Listo
+  - Campo notas importantes [Componente RestaurantSettings.vue] Listo
+  - Campo contraseña del WiFi [Componente RestaurantSettings.vue] Listo
+  - Agregar debajo de Permitir pedidos take away "Solo escaneando códigos QR para take away o genéricos" [Componente RestaurantSettings.vue] Listo
+
+  - Agregar datos personalizados en pedidos [Componente RestaurantSettings.vue]
+
+  - Dialog para agregar varias mesas. (Cantidad de mesas, formato de nombre, desde que numero empezar)

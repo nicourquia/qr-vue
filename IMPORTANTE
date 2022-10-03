@@ -1,0 +1,10 @@
+Si da error de encondings en iconv_lite, copiar carpeta encodings de proyecto queresto_plugin
+
+Si agrega listeners (Socket.io etc) borrarlos al beforeDestroy, sino se multiplicarán con hot reload
+
+
+      if (this.$refs.myMap) {
+        setTimeout(() => {
+          this.$refs.myMap.mapObject.invalidateSize();
+        }, 10);
+      }

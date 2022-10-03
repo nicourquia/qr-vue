@@ -1,0 +1,28 @@
+<template>
+</template>
+
+<script lang="ts">
+import {Component, Vue, Prop, Watch} from 'vue-property-decorator';
+import {IUser} from "../../interfaces/IUser";
+import {vueData} from "../../VueData";
+
+@Component
+export default class NuevaPagina extends Vue {
+  @Prop() user: IUser;
+
+  async created() { // Se llama al crear el componente
+  }
+
+  /*mounted() { // se llama al renderar el componente
+    //
+  }
+
+  beforeDestroy() { // se llama al destruir el componente (cierro modal, cambio de página, etc.)
+
+  }*/
+}
+</script>
+
+<!--<style lang="scss" scoped>
+
+</style>-->

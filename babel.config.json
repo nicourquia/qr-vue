@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": "auto"
+      }
+    ],
+    "babel-preset-typescript-vue"
+  ],
+  "plugins": [
+    "@babel/proposal-numeric-separator",
+    [
+      "@babel/proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    ["@babel/proposal-class-properties", { "loose": false }],
+    "@babel/plugin-transform-spread",
+    "@babel/plugin-proposal-object-rest-spread"
+  ]
+}
